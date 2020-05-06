@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
   ListingData,
   DeleteListingData,
   DeleteListingVariables,
-  Listing,
 } from "./types";
 import { useQuery } from "../../lib/api/useQuery";
 import { useMutation } from "../../lib/api/useMutation";
